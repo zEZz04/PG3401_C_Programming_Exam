@@ -1,27 +1,35 @@
 # 🖥️ C Programming Exam - PG3401 (Spring 2026)
-### 🏆 Karakter: A
+### 🏆 Grade: A
 
-Dette repositoriet inneholder min besvarelse for hjemmeeksamen i C-programmering ved Høyskolen Kristiania. Oppgaven fokuserte på lavnivå systemprogrammering og implementering av protokoller i C-89.
-
----
-
-## 🛠️ Teknisk fokus
-Prosjektet er bygget rundt følgende kjerneområder:
-
-*   **Systemprogrammering:** Bruk av Linux systemkall og POSIX-standarder.
-*   **Fil- og minnehåndtering:** Manipulasjon av binære datafiler og dynamisk allokering.
-*   **Multithreading:** Implementering av trådsikkerhet ved bruk av `mutex` for å håndtere race conditions i matematiske operasjoner.
-*   **Nettverk:** Implementering av rå TCP-kommunikasjon basert på Socket API-et, samt utvikling av en egen protokoll ("TCP over TCP") for feilsikker filoverføring.
+This repository contains my final exam submission for the C Programming course at Kristiania University College. The exam focused on low-level system programming and protocol implementation using the C-89 standard.
 
 ---
 
-## 🧩 Utvalgte utfordringer
-Besvarelsen krevde problemløsning knyttet til:
+## 🛠️ Technical Focus
+The project is centered around the following core areas:
 
-*   **Protokoll-implementering:** Utvikling av en klient-server arkitektur som håndterer dataoverføring med CRC-sjekk og ACK/NACK-logikk.
-*   **Robusthet:** Implementering av feilhåndtering for å sikre at serveren forblir stabil ved mottak av uventet eller malformert input.
-*   **Effektivitet:** Optimalisering av ressursbruk ved bruk av tråder for tidkrevende matematiske tester.
+*   **System Programming:** Utilization of Linux system calls and POSIX standards.
+*   **File and Memory Management:** Manipulation of binary data files and dynamic memory allocation.
+*   **Multithreading:** Implementation of thread safety using `mutex` to handle race conditions in mathematical operations.
+*   **Networking:** Implementation of raw TCP communication based on the Socket API, along with the development of a custom protocol ("TCP over TCP") for reliable file transfer.
 
 ---
 
-*Utviklet som en del av studiet i Cyber Security ved Høyskolen Kristiania.*
+## 🧩 Key Challenges
+The submission required problem-solving in the following areas:
+
+*   **Protocol Implementation:** Development of a client-server architecture capable of handling data transfer with CRC checking and ACK/NACK logic.
+*   **Robustness:** Implementation of error handling to ensure the server remains stable when receiving unexpected or malformed input.
+*   **Efficiency:** Optimization of resource usage through the use of threads for time-consuming mathematical tests.
+
+---
+
+## 🚀 How to Run the Project
+1. Ensure you have `gcc` and `make` installed on a Linux-based system.
+2. Navigate to the desired task directory: `cd taskX_candidate_number`
+3. Compile the code: `make`
+4. Run the program: `./program_name`
+
+---
+
+*Developed as part of the Cyber Security Bachelor's degree at Kristiania University College.*

@@ -24,12 +24,4 @@ The submission required problem-solving in the following areas:
 
 ---
 
-## 🚀 How to Run the Project
-1. Ensure you have `gcc` and `make` installed on a Linux-based system.
-2. Navigate to the desired task directory: `cd taskX_candidate_number`
-3. Compile the code: `make`
-4. Run the program: `./program_name`
-
----
-
 *Developed as part of the Cyber Security Bachelor's degree at Kristiania University College.*
